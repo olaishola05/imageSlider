@@ -33,7 +33,7 @@ function displayInterval() {
     }
     slider.src = img_arr[num];
 }
-setInterval(displayInterval, 6000);
+setInterval(displayInterval, 5000);
 
 document.getElementById("next").addEventListener("click", nextButton);
 document.getElementById("prev").addEventListener("click", previousButton);
